@@ -13,7 +13,7 @@ import tempfile
 import shutil
 import hashlib
 from pathlib import Path
-from chatbot.utils import clean_text
+from utils import clean_text
 import re
 import json
 
