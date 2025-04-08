@@ -6,7 +6,7 @@ import shutil
 import toml  # For manual secrets loading
 import json
 import tempfile
-from chatbot.utils import clean_text, store_feedback, generate_wordcloud, export_chat_to_pdf
+from utils import clean_text, store_feedback, generate_wordcloud, export_chat_to_pdf
 
 def setup_directories():
     """Set up working directories: D: locally, cloud-compatible fallback"""
