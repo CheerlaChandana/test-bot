@@ -1,7 +1,7 @@
 import streamlit as st
-from chatbot.ui import render_ui
-from chatbot.processing import load_and_process_documents, refine_question
-from chatbot.utils import clean_text, store_feedback, generate_wordcloud, export_chat_to_pdf
+from ui import render_ui
+from processing import load_and_process_documents, refine_question
+from utils import clean_text, store_feedback, generate_wordcloud, export_chat_to_pdf
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import json
 import tempfile
